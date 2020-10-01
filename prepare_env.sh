@@ -4,6 +4,7 @@ tar xf spark-2.4.7-bin-hadoop2.7.tgz
 
 pip install -q findspark
 pip install -q pyarrow
+pip install -q impyla
 
 wget https://repo1.maven.org/maven2/org/apache/kudu/kudu-spark2_2.11/1.12.0/kudu-spark2_2.11-1.12.0.jar
 mv /content/kudu-spark2_2.11-1.12.0.jar /content/spark-2.4.7-bin-hadoop2.7/jars/kudu-spark2_2.11-1.12.0.jar
