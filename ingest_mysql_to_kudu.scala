@@ -46,6 +46,7 @@ def load_to_kudu(source: String, table: String, keys: Seq[String]) = {
 
   spark.sql(s"SELECT count(*) FROM $table").show()
 }
+
 val params = sc.getConf.get("spark.driver.args")
 // println(params)
 
